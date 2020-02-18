@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg936\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 README\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl264\slmult1\pardirnatural\partightenfactor0
+
+\fs36 \cf0 h1b_all.pkl
+\fs72 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs28 \cf0 h1b_all.pkl saves all the data we could find from the official documentation. And the illustration of all the columns are given below:\
+\pard\pardeftab420\ri380\sl276\slmult1\partightenfactor0
+
+\f1 \cf0 date (of application): the data, sometimes including the time when the application is submitted.\
+case_number: the number of application\
+employer: the name of employer\
+tot_foreign_positions: total position requested by employer\
+naic_code: the code of job provided by NAIC\
+job_title: job name, not naic name of soc name\
+job_code: sometimes occupation code, not naic code or soc code\
+soc_name: job name in soc system\
+approval_status: certified or not\
+annual_wage: annual wage of the person who submitted the application \
+annual_prevailing_wage: average annual wage in the job market\
+city (of occupation): job city\
+state (of occupation): job state\
+county (of occupation): job county\
+\
+
+\fs36 naic.pkl and soc.pkl
+\fs28 \
+naic.pkl contains the correspondence between naic code and naic name.\
+soc.pkl contains the correspondence between naic code and naic name.\
+\
+Next time when using the dataset, remember to first set the valid data type and valid range in avoid of being distract by wrong data\
+}
